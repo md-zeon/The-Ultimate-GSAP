@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Learn Gsap ScrollTrigger</title>
+    <link rel="stylesheet" href="../../style.css" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <main>
+        <header class="nav">
+            <a href="/">
+                <img src=" /logo.svg" alt="logo" />
+            </a>
+            <a href="https://jsmastery.com/all-courses" target="_blank">GSAP Course</a>
+        </header>
+
+        <div class="content">
+            <div class="arrow">
+                <a href="../../index.html">
+                    <img src=" /arrow.svg" alt="arrow" />
+                </a>
+            </div>
+
+            <section>
+                <h1>Learn Gsap ScrollTrigger</h1>
+
+                <p>
+                    The <code>scrollTrigger()</code> method is used to create scroll-based animations
+                    that are triggered and controlled by the user's scroll actions.
+                </p>
+
+                <p>
+                    ScrollTrigger allows developers to easily link animations to the scroll position of
+                    the webpage, enabling effects such as parallax scrolling, pinning elements during
+                    scroll, and triggering animations when specific elements enter or leave the viewport.
+                </p>
+
+                <p>
+                    Unlike traditional animations that play based on time, ScrollTrigger animations respond
+                    dynamically to the user's scrolling behavior, providing a more interactive and engaging
+                    experience.
+                </p>
+
+                <p>
+                    ScrollTrigger also supports features such as relative positioning,
+                    overlapping animations using time offsets, labels for navigation,
+                    and nesting of other timelines, making them ideal for complex
+                    animation sequences.
+                </p>
+
+                <p>
+                    Read more about the
+                    <a href="https://gsap.com/resources/getting-started/scrolltrigger" target="_blank">Gsap
+                        ScrollTrigger</a>
+                    method.
+                </p>
+            </section>
+        </div>
+
+        <div class="demo relative">
+            <section class="spacer">Scroll down to see the animation</section>
+            <div class="box"></div>
+            <section class="spacer">
+                Box moves when start hits the starter-marker
+            </section>
+        </div>
+
+        <script type="module" src="script.js"></script>
+    </main>
+</body>
+
+</html>
